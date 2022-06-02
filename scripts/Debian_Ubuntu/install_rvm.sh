@@ -3,12 +3,12 @@
 #\curl -sSL https://get.rvm.io | bash -s stable && \
 
 #git clone git@github.com:rvm/rvm.git /tmp/rvm
-git clone https://github.com/rvm/rvm.git /tmp/rvm
-/tmp/rvm/binscripts/rvm-installer
-. ~/.bashrc
-. ~/.bash_profile
-mkdir ~/.rvm/user/
+git clone https://github.com/rvm/rvm.git /tmp/rvm && \
+/tmp/rvm/binscripts/rvm-installer && \
+. ~/.bashrc && \
+. ~/.bash_profile && \
 
+#mkdir ~/.rvm/user/ && \
 #echo "ruby_url=https://cache.ruby-china.com/pub/ruby" > ~/.rvm/user/db
 
 rvm install 2.7.2 --disable-binary && \
