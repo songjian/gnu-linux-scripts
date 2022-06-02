@@ -1,3 +1,5 @@
-# Ubuntu Server Scripts
+# GNU/Linux 运维脚本库
 
-ruby、python和一些常用软件的安装和卸载脚本。
+## Debian
+
+* [设置国内镜像源](./common-setting.sh)
