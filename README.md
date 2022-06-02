@@ -2,4 +2,4 @@
 
 ## Debian
 
-* [设置国内镜像源](./scripts/debian-ubuntu//common-setting.sh)
+* [设置国内镜像源](./scripts/Debian_Ubuntu//common-setting.sh)
